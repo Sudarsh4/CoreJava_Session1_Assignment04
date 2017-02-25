@@ -1,0 +1,13 @@
+import javax.xml.stream.events.Characters;
+
+public class Assignment_104 {
+
+	public static void main(String[] args) {
+		// Program to print ASCII Characters.class...   
+		for (int ASCII_Ch=65; ASCII_Ch<=90; ASCII_Ch++) {
+			    System.out.println("\nThe ASCII Character of "+ASCII_Ch + " Value is " + (char)ASCII_Ch);
+		   }
+	   System.out.println("\n ---=== End of Program ===---");
+	}
+
+}
